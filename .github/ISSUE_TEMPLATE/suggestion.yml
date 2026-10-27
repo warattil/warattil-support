@@ -6,13 +6,13 @@ body:
   - type: markdown
     attributes:
       value: |
-        كل الأفكار مرحّب بيها. اكتبها ببساطة، ومش لازم تكون كاملة.
+        نرحّب بجميع الأفكار. اكتبها ببساطة، ولا يلزم أن تكون مكتملة.
 
         All ideas are welcome. Keep it simple; it does not need to be complete.
   - type: textarea
     id: problem
     attributes:
-      label: إيه اللي بتحاول تعمله ومش عارف · What are you trying to do that is hard today?
+      label: ما الذي تحاول القيام به ويصعب عليك اليوم؟ · What are you trying to do that is hard today?
     validations:
       required: true
   - type: textarea
@@ -24,17 +24,17 @@ body:
   - type: dropdown
     id: area
     attributes:
-      label: الجزء من التطبيق · Part of the app
+      label: الجزء المعنيّ من التطبيق · Part of the app
       options:
         - المصحف · Mushaf
         - الاستماع والقرّاء · Listening and reciters
         - التحميلات · Downloads
         - الإعدادات · Settings
-        - حاجة تانية · Something else
+        - غير ذلك · Something else
   - type: checkboxes
     id: confirm
     attributes:
       label: تأكيد · Confirmation
       options:
-        - label: الاقتراح ده ما فيهوش بيانات شخصية · This suggestion contains no personal data
+        - label: لا يتضمن هذا الاقتراح بيانات شخصية · This suggestion contains no personal data
           required: true

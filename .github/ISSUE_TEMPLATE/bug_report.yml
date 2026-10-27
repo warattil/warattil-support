@@ -1,14 +1,14 @@
 name: بلاغ عن مشكلة · Bug report
-description: حاجة في التطبيق مش شغالة أو غلط · Something in the app is broken or wrong
+description: خلل في التطبيق أو سلوك غير صحيح · Something in the app is broken or wrong
 title: "[مشكلة] "
 labels: ["bug"]
 body:
   - type: markdown
     attributes:
       value: |
-        شكرًا إنك بتساعدنا نحسّن التطبيق. البلاغ ده **عام**: ما تكتبش بيانات شخصية. لو الموضوع عن نص المصحف، اكتب الأرقام بس من غير ما تنقل نص الآية.
+        شكرًا لمساعدتك في تحسين التطبيق. هذا البلاغ **عام**، فلا تذكر فيه بيانات شخصية. وإن كان الأمر يتعلق بنص المصحف، فاذكر الأرقام فقط دون نقل نص الآية.
 
-        Thanks for helping us improve the app. This report is **public**: please leave out personal data. For anything about the Quran text, give numbers only and do not paste the ayah.
+        Thank you for helping us improve the app. This report is **public**: please leave out personal data. For anything about the Quran text, give numbers only and do not paste the ayah.
   - type: dropdown
     id: device
     attributes:
@@ -23,14 +23,14 @@ body:
   - type: input
     id: os
     attributes:
-      label: نسخة النظام · OS version
+      label: إصدار النظام · OS version
       placeholder: "iOS 26.1 / Android 16"
     validations:
       required: true
   - type: input
     id: app_version
     attributes:
-      label: نسخة التطبيق · App version
+      label: إصدار التطبيق · App version
       description: من صفحة الإعدادات · From the Settings page
       placeholder: "1.0.3"
     validations:
@@ -38,7 +38,7 @@ body:
   - type: textarea
     id: steps
     attributes:
-      label: خطوات الوصول للمشكلة · Steps to reproduce
+      label: خطوات إعادة المشكلة · Steps to reproduce
       placeholder: |
         1. افتح …
         2. اضغط …
@@ -48,14 +48,14 @@ body:
   - type: textarea
     id: expected
     attributes:
-      label: المفروض يحصل إيه · What you expected
+      label: ما كان ينبغي أن يحدث · What you expected
     validations:
       required: true
   - type: textarea
     id: actual
     attributes:
-      label: اللي حصل فعلًا · What happened instead
-      description: صورة شاشة بتساعد كتير، بس اتأكد إنها من غير بيانات شخصية · A screenshot helps a lot; make sure it shows no personal data
+      label: ما حدث فعلًا · What happened instead
+      description: لقطة الشاشة تساعد كثيرًا، على ألّا تتضمن بيانات شخصية · A screenshot helps a lot, as long as it shows no personal data
     validations:
       required: true
   - type: checkboxes
@@ -63,5 +63,5 @@ body:
     attributes:
       label: تأكيد · Confirmation
       options:
-        - label: البلاغ ده ما فيهوش بيانات شخصية ولا نص آيات منقول · This report contains no personal data and no copied ayah text
+        - label: لا يتضمن هذا البلاغ بيانات شخصية ولا نصًّا منقولًا من الآيات · This report contains no personal data and no copied ayah text
           required: true

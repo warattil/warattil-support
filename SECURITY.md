@@ -1,18 +1,26 @@
-<div dir="rtl">
+<div align="center">
 
-# الإبلاغ عن ثغرة أمنية
-
-لو لقيت ثغرة أمنية في تطبيق ورتل أو في خدماته، **ما تفتحش بلاغ عام** هنا.
-
-ابعت التفاصيل على [support@warattilapp.com](mailto:support@warattilapp.com) وحط في العنوان كلمة «Security». هنرد عليك خلال 7 أيام، ونقولك إيه اللي هيحصل بعدها.
-
-من فضلك ما تجرّبش الثغرة على بيانات مستخدمين تانيين، وما تنشرهاش قبل ما نصلّحها ونتفق معاك على الإعلان.
+# سياسة الأمان · Security policy
 
 </div>
 
 ---
 
-# Reporting a security issue
+<div dir="rtl" align="right">
+
+## العربية
+
+إن وجدت ثغرة أمنية في تطبيق ورتل أو في خدماته، **فلا تفتح بلاغًا عامًّا** هنا.
+
+أرسل التفاصيل إلى [support@warattilapp.com](mailto:support@warattilapp.com) واكتب في عنوان الرسالة كلمة «Security». سنردّ عليك في غضون 7 أيام، ونخبرك بما سيحدث بعد ذلك.
+
+نرجو ألّا تجرّب الثغرة على بيانات مستخدمين آخرين، وألّا تنشرها قبل أن نعالجها ونتفق معك على موعد الإعلان عنها.
+
+</div>
+
+---
+
+## English
 
 If you find a security vulnerability in the Warattil app or its services, **please do not open a public issue** here.
 
