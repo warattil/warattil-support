@@ -9,11 +9,11 @@
 
 <br>
 
-[![بلاغ عن مشكلة](https://img.shields.io/badge/Report_a_bug-%D8%A8%D9%84%D8%A7%D8%BA_%D8%B9%D9%86_%D9%85%D8%B4%D9%83%D9%84%D8%A9-1f3a5f?style=for-the-badge)](../../issues/new?template=bug_report.yml)
+[![Report a bug](https://img.shields.io/badge/Report_a_bug-1f3a5f?style=for-the-badge)](../../issues/new?template=bug_report.yml)
 &nbsp;
-[![اقتراح](https://img.shields.io/badge/Suggest-%D8%A7%D9%82%D8%AA%D8%B1%D8%A7%D8%AD-2f6f4f?style=for-the-badge)](../../issues/new?template=suggestion.yml)
+[![Suggest](https://img.shields.io/badge/Suggest-2f6f4f?style=for-the-badge)](../../issues/new?template=suggestion.yml)
 &nbsp;
-[![البريد](https://img.shields.io/badge/Email-support%40warattilapp.com-6b4f1d?style=for-the-badge)](mailto:support@warattilapp.com)
+[![Email support](https://img.shields.io/badge/Email_support-6b4f1d?style=for-the-badge)](mailto:support@warattilapp.com)
 
 <br>
 
