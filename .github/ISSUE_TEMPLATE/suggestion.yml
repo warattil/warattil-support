@@ -1,0 +1,40 @@
+name: اقتراح · Suggestion
+description: فكرة أو تحسين للتطبيق · An idea or an improvement for the app
+title: "[اقتراح] "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        كل الأفكار مرحّب بيها. اكتبها ببساطة، ومش لازم تكون كاملة.
+
+        All ideas are welcome. Keep it simple; it does not need to be complete.
+  - type: textarea
+    id: problem
+    attributes:
+      label: إيه اللي بتحاول تعمله ومش عارف · What are you trying to do that is hard today?
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: الاقتراح · The suggestion
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: الجزء من التطبيق · Part of the app
+      options:
+        - المصحف · Mushaf
+        - الاستماع والقرّاء · Listening and reciters
+        - التحميلات · Downloads
+        - الإعدادات · Settings
+        - حاجة تانية · Something else
+  - type: checkboxes
+    id: confirm
+    attributes:
+      label: تأكيد · Confirmation
+      options:
+        - label: الاقتراح ده ما فيهوش بيانات شخصية · This suggestion contains no personal data
+          required: true
